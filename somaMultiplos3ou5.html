@@ -1,0 +1,21 @@
+<html>
+<script>
+  function somaMultiplos3ou5(limite) {
+    // variável que armazenará a soma dos múltiplos
+    var soma = 0;
+
+    // Loop para percorrer todos os números até o limite especificado
+    for (var i = 0; i < limite; i++) {
+      // Verifica se o número é múltiplo de 3 ou 5
+      if (i % 3 === 0 || i % 5 === 0) {
+        // Adiciona o número à variável de soma
+        soma += i;
+      }
+    }
+
+    // Retorna a soma dos múltiplos
+    return soma;
+  }
+</script>
+
+</html>
